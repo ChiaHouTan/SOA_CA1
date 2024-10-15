@@ -30,13 +30,6 @@ E:\SOA Repeat Module 2024-2025\SOA_CA1\obj\Debug\net8.0\refint\SOA_CA1.dll
 E:\SOA Repeat Module 2024-2025\SOA_CA1\obj\Debug\net8.0\SOA_CA1.pdb
 E:\SOA Repeat Module 2024-2025\SOA_CA1\obj\Debug\net8.0\SOA_CA1.genruntimeconfig.cache
 E:\SOA Repeat Module 2024-2025\SOA_CA1\obj\Debug\net8.0\ref\SOA_CA1.dll
-C:\Users\tanch\Desktop\Smart Tech\git upload\SOA_CA1\SOA_CA1\obj\Debug\net8.0\SOA_CA1.csproj.AssemblyReference.cache
-C:\Users\tanch\Desktop\Smart Tech\git upload\SOA_CA1\SOA_CA1\obj\Debug\net8.0\SOA_CA1.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\tanch\Desktop\Smart Tech\git upload\SOA_CA1\SOA_CA1\obj\Debug\net8.0\SOA_CA1.AssemblyInfoInputs.cache
-C:\Users\tanch\Desktop\Smart Tech\git upload\SOA_CA1\SOA_CA1\obj\Debug\net8.0\SOA_CA1.AssemblyInfo.cs
-C:\Users\tanch\Desktop\Smart Tech\git upload\SOA_CA1\SOA_CA1\obj\Debug\net8.0\SOA_CA1.csproj.CoreCompileInputs.cache
-C:\Users\tanch\Desktop\Smart Tech\git upload\SOA_CA1\SOA_CA1\obj\Debug\net8.0\SOA_CA1.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\tanch\Desktop\Smart Tech\git upload\SOA_CA1\SOA_CA1\obj\Debug\net8.0\SOA_CA1.sourcelink.json
 C:\Users\tanch\Desktop\Smart Tech\git upload\SOA_CA1\SOA_CA1\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\tanch\Desktop\Smart Tech\git upload\SOA_CA1\SOA_CA1\bin\Debug\net8.0\appsettings.json
 C:\Users\tanch\Desktop\Smart Tech\git upload\SOA_CA1\SOA_CA1\bin\Debug\net8.0\SOA_CA1.staticwebassets.runtime.json
@@ -46,6 +39,13 @@ C:\Users\tanch\Desktop\Smart Tech\git upload\SOA_CA1\SOA_CA1\bin\Debug\net8.0\SO
 C:\Users\tanch\Desktop\Smart Tech\git upload\SOA_CA1\SOA_CA1\bin\Debug\net8.0\SOA_CA1.dll
 C:\Users\tanch\Desktop\Smart Tech\git upload\SOA_CA1\SOA_CA1\bin\Debug\net8.0\SOA_CA1.pdb
 C:\Users\tanch\Desktop\Smart Tech\git upload\SOA_CA1\SOA_CA1\bin\Debug\net8.0\RestSharp.dll
+C:\Users\tanch\Desktop\Smart Tech\git upload\SOA_CA1\SOA_CA1\obj\Debug\net8.0\SOA_CA1.csproj.AssemblyReference.cache
+C:\Users\tanch\Desktop\Smart Tech\git upload\SOA_CA1\SOA_CA1\obj\Debug\net8.0\SOA_CA1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tanch\Desktop\Smart Tech\git upload\SOA_CA1\SOA_CA1\obj\Debug\net8.0\SOA_CA1.AssemblyInfoInputs.cache
+C:\Users\tanch\Desktop\Smart Tech\git upload\SOA_CA1\SOA_CA1\obj\Debug\net8.0\SOA_CA1.AssemblyInfo.cs
+C:\Users\tanch\Desktop\Smart Tech\git upload\SOA_CA1\SOA_CA1\obj\Debug\net8.0\SOA_CA1.csproj.CoreCompileInputs.cache
+C:\Users\tanch\Desktop\Smart Tech\git upload\SOA_CA1\SOA_CA1\obj\Debug\net8.0\SOA_CA1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\tanch\Desktop\Smart Tech\git upload\SOA_CA1\SOA_CA1\obj\Debug\net8.0\SOA_CA1.sourcelink.json
 C:\Users\tanch\Desktop\Smart Tech\git upload\SOA_CA1\SOA_CA1\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\tanch\Desktop\Smart Tech\git upload\SOA_CA1\SOA_CA1\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\tanch\Desktop\Smart Tech\git upload\SOA_CA1\SOA_CA1\obj\Debug\net8.0\staticwebassets\msbuild.SOA_CA1.Microsoft.AspNetCore.StaticWebAssets.props

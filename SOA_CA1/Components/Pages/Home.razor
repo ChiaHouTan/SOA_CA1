@@ -23,26 +23,55 @@
 @if (dogBreed != null)
 {
     <div>
-        <h4>Name: @dogBreed.name</h4>
-        <p>Max-Height: @dogBreed.max_height_male</p>
-        <p>Max-Weight: @dogBreed.max_weight_male</p>
-        <p>Life Expectancy: @dogBreed.max_life_expectancy (years)</p>
-        <p>Playfulness: @dogBreed.playfulness</p>
-        <p>Protectiveness: @dogBreed.protectiveness</p>
-        <p>Trainability: @dogBreed.trainability</p>
-        <p>Barking: @dogBreed.barking</p>
-    </div>
+        <table>
+            <tr>
+                <th>Name:</th>
+                <th>@dogBreed.name</th>
+            </tr>
 
+            <tr>
+                <th>Max-Height:</th>
+                <td>@dogBreed.max_height_male</td>
+            </tr>
+            <tr>
+                <th>Max-Weight:</th>
+                <td>@dogBreed.max_weight_male</td>
+            </tr>
+            <tr>
+                <th>Life Expectancy:</th>
+                <td>@dogBreed.max_life_expectancy (years)</td>
+            </tr>
+            <tr>
+                <th>Playfulness: </th>
+                <td>@dogBreed.playfulness</td>
+            </tr>
+            <tr>
+                <th>Protectiveness:</th>
+                <td>@dogBreed.protectiveness</td>
+            </tr>
+            <tr>
+                <th>Trainability:</th>
+                <td>@dogBreed.trainability</td>
+            </tr>
+            <tr>
+                <th>Barking:</th>
+                <td>@dogBreed.barking</td>
+            </tr>
+        </table>
+    </div>
     @if (dogImages != null && dogImages.Any())
     {
-        <h5>Random Images:</h5>
+        <h5>Images:</h5>
         <div class="image-gallery">
             @foreach (var imageUrl in dogImages)
             {
-                <img src="@imageUrl" alt="Dog Image" style="width: 100px; height: auto; margin: 5px;" />
+                <div class="image-item">
+                    <img src="@imageUrl" alt="Dog Image" />
+                </div>
             }
         </div>
     }
+
 }
 else if (isSearchComplete)
 {
