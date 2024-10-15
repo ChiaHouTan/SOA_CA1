@@ -32,6 +32,17 @@
         <p>Trainability: @dogBreed.trainability</p>
         <p>Barking: @dogBreed.barking</p>
     </div>
+
+    @if (dogImages != null && dogImages.Any())
+    {
+        <h5>Random Images:</h5>
+        <div class="image-gallery">
+            @foreach (var imageUrl in dogImages)
+            {
+                <img src="@imageUrl" alt="Dog Image" style="width: 100px; height: auto; margin: 5px;" />
+            }
+        </div>
+    }
 }
 else if (isSearchComplete)
 {
@@ -42,6 +53,7 @@ else if (isSearchComplete)
     private List<string> dogBreeds = new List<string>(); // List of dog breeds from file
     private string selectedBreed; // Selected breed from dropdown
     private DogBreed dogBreed;
+    private List<string> dogImages = new List<string>(); // List of dog images
     private bool isSearchComplete = false;
 
     protected override async Task OnInitializedAsync()
@@ -61,6 +73,13 @@ else if (isSearchComplete)
     {
         isSearchComplete = false;
         dogBreed = await DogBreedsService.GetDogBreedByNameAsync(selectedBreed);
+
+        // Fetch random images for the selected breed
+        if (dogBreed != null)
+        {
+            dogImages = await DogBreedsService.GetRandomImagesAsync(selectedBreed);
+        }
+
         isSearchComplete = true;
     }
 }

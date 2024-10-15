@@ -11,6 +11,7 @@ namespace SOA_CA1.Service
     {
         private static readonly string Api_url = "https://api.api-ninjas.com/v1/dogs";
         private static readonly string ApiKey = "kEYxvRU7WUwd77Gdv6zrRQ==iK3TgdqZnMER5aXu";
+        private static readonly string DogImagesApiUrl = "https://dog.ceo/api/breed/";
 
         public async Task<DogBreed> GetDogBreedByNameAsync(string breedName)
         {
@@ -39,6 +40,21 @@ namespace SOA_CA1.Service
                 // Handle any errors (e.g., return null or an error object)
                 return null;
             }
+        }
+
+        public async Task<List<string>> GetRandomImagesAsync(string breed, int count = 9)
+        {
+            var client = new RestClient(DogImagesApiUrl);
+            var request = new RestRequest($"{breed.ToLower()}/images/random/{count}", Method.Get);
+
+            var response = await client.ExecuteAsync(request);
+            if (response.IsSuccessful)
+            {
+                var content = response.Content;
+                var jsonResponse = JsonSerializer.Deserialize<DogImages>(content);
+                return jsonResponse?.message;
+            }
+            return new List<string>();
         }
     }
 
@@ -69,5 +85,12 @@ namespace SOA_CA1.Service
         public float min_weight_female { get; set; }
         public string name { get; set; }
     }
+
+    public class DogImages
+    {
+        public List<string> message { get; set; }
+        public string status { get; set; }
+    }
+
 
 }

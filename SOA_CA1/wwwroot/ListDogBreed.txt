@@ -1,20 +1,68 @@
-Labrador Retriever
-German Shepherd
-Golden Retriever
-Bulldog
-Beagle
-Poodle
-Rottweiler
-Boxer
-Dachshund
-Siberian Husky
-Great Dane
-Doberman Pinscher
-Shih Tzu
-Border Collie
-Australian Shepherd
-Basset Hound
-Chihuahua
-Cocker Spaniel
+Affenpinscher
+African
+Airedale
 Akita
-Greyhound
+Appenzeller
+Basenji
+Beagle
+Bluetick
+Borzoi
+Bouvier
+Boxer
+Brabancon
+Briard
+Cavapoo
+Chihuahua
+Chow
+Clumber
+Cockapoo
+Coonhound
+Cotondetulear
+Dachshund
+Dalmatian
+Dhole
+Dingo
+Doberman
+Entlebucher
+Eskimo
+Germanshepherd
+Groenendael
+Havanese
+Husky
+Keeshond
+Kelpie
+Kombai
+Komondor
+Kuvasz
+Labradoodle
+Labrador
+Leonberg
+Lhasa
+Malamute
+Malinois
+Maltese
+Mexicanhairless
+Mix
+Newfoundland
+Otterhound
+Papillon
+Pekinese
+Pembroke
+Pitbull
+Pomeranian
+Pug
+Puggle
+Pyrenees
+Redbone
+Rottweiler
+Saluki
+Samoyed
+Schipperke
+Sharpei
+Shiba
+Shihtzu
+Stbernard
+Tervuren
+Vizsla
+Weimaraner
+Whippet
