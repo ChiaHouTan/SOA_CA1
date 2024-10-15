@@ -1,14 +1,22 @@
 ﻿@page "/"
 @using SOA_CA1.Service
 @inject DogBreedsService DogBreedsService
+@inject IWebHostEnvironment WebHostEnvironment
 
 
 <PageTitle>Home</PageTitle>
 
-<h3>Search for a Dog Breed by Name</h3>
+<h3>Select a Dog Breed from the List</h3>
 
-<input @bind="searchTerm" placeholder="Enter breed name..." />
-<button @onclick="FetchDogBreed">Search</button>
+<select @bind="selectedBreed">
+    <option value="">Select a breed...</option>
+    @foreach (var breed in dogBreeds)
+    {
+        <option value="@breed">@breed</option>
+    }
+</select>
+
+<button @onclick="FetchDogBreed" disabled="@(string.IsNullOrEmpty(selectedBreed))">Search</button>
 
 
 
@@ -31,15 +39,28 @@ else if (isSearchComplete)
 }
 
 @code {
-    private string searchTerm;
+    private List<string> dogBreeds = new List<string>(); // List of dog breeds from file
+    private string selectedBreed; // Selected breed from dropdown
     private DogBreed dogBreed;
     private bool isSearchComplete = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Load the breeds from a file (assuming it's in the wwwroot folder)
+        string breedsFilePath = Path.Combine(WebHostEnvironment.WebRootPath, "ListDogBreed.txt");
+
+        // Read the breeds from the file
+        if (File.Exists(breedsFilePath))
+        {
+            dogBreeds = (await File.ReadAllLinesAsync(breedsFilePath)).ToList();
+        }
+    }
 
     // Method to call the service and fetch the dog breed based on the search term
     private async Task FetchDogBreed()
     {
         isSearchComplete = false;
-        dogBreed = await DogBreedsService.GetDogBreedByNameAsync(searchTerm);
+        dogBreed = await DogBreedsService.GetDogBreedByNameAsync(selectedBreed);
         isSearchComplete = true;
     }
 }

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\SOA_CA1.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\wwwroot\\ListDogBreed.txt",
+      "PackagePath": "staticwebassets\\ListDogBreed.txt"
+    },
+    {
       "Id": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },

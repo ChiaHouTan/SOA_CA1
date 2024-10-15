@@ -1,0 +1,20 @@
+Labrador Retriever
+German Shepherd
+Golden Retriever
+Bulldog
+Beagle
+Poodle
+Rottweiler
+Boxer
+Dachshund
+Siberian Husky
+Great Dane
+Doberman Pinscher
+Shih Tzu
+Border Collie
+Australian Shepherd
+Basset Hound
+Chihuahua
+Cocker Spaniel
+Akita
+Greyhound

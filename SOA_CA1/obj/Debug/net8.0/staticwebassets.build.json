@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jHP0tVsZ8wogs/5mibHP7IUm4vA0lXCbJcyC8Zb9hB4=",
+  "Hash": "SUjVz3lj+HGlUxIPRq42n34Sn4DfeSmPxAD6I1skA9w=",
   "Source": "SOA_CA1",
   "BasePath": "_content/SOA_CA1",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\wwwroot\\ListDogBreed.txt",
+      "SourceId": "SOA_CA1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\wwwroot\\",
+      "BasePath": "_content/SOA_CA1",
+      "RelativePath": "ListDogBreed.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ListDogBreed.txt"
     }
   ]
 }
