@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SOA_CA1.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SOA_CA1.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SOA_CA1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SOA_CA1.props",
+      "PackagePath": "build\\SOA_CA1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SOA_CA1.props",
+      "PackagePath": "buildMultiTargeting\\SOA_CA1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SOA_CA1.props",
+      "PackagePath": "buildTransitive\\SOA_CA1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
