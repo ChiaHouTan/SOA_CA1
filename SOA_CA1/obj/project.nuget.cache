@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "q9i9+BSrpXs=",
+  "dgSpecHash": "1MNyOm/+xm4=",
   "success": true,
-  "projectFilePath": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\SOA_CA1.csproj",
+  "projectFilePath": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\SOA_CA1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\D00223937\\.nuget\\packages\\restsharp\\112.1.0\\restsharp.112.1.0.nupkg.sha512"
+    "C:\\Users\\tanch\\.nuget\\packages\\restsharp\\112.1.0\\restsharp.112.1.0.nupkg.sha512"
   ],
   "logs": []
 }

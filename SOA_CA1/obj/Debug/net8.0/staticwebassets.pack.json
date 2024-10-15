@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SOA_CA1.bundle.scp.css",
+      "Id": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SOA_CA1.bundle.scp.css",
       "PackagePath": "staticwebassets\\SOA_CA1.bundle.scp.css"
     },
     {
-      "Id": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\wwwroot\\app.css",
+      "Id": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {

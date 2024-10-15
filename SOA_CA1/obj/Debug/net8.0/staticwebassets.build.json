@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pe2XVi7GDq13iLueZRCO2xyxI+nnLr3x5wFIFK4qgTo=",
+  "Hash": "jHP0tVsZ8wogs/5mibHP7IUm4vA0lXCbJcyC8Zb9hB4=",
   "Source": "SOA_CA1",
   "BasePath": "_content/SOA_CA1",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "SOA_CA1\\wwwroot",
       "Source": "SOA_CA1",
-      "ContentRoot": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\wwwroot\\",
       "BasePath": "_content/SOA_CA1",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SOA_CA1.styles.css",
+      "Identity": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SOA_CA1.styles.css",
       "SourceId": "SOA_CA1",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/SOA_CA1",
       "RelativePath": "SOA_CA1.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SOA_CA1.styles.css"
+      "OriginalItemSpec": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SOA_CA1.styles.css"
     },
     {
-      "Identity": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SOA_CA1.bundle.scp.css",
+      "Identity": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SOA_CA1.bundle.scp.css",
       "SourceId": "SOA_CA1",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/SOA_CA1",
       "RelativePath": "SOA_CA1.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SOA_CA1.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SOA_CA1.bundle.scp.css"
     },
     {
-      "Identity": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\wwwroot\\app.css",
       "SourceId": "SOA_CA1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\wwwroot\\",
       "BasePath": "_content/SOA_CA1",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "SOA_CA1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\wwwroot\\",
       "BasePath": "_content/SOA_CA1",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "SOA_CA1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\wwwroot\\",
       "BasePath": "_content/SOA_CA1",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\wwwroot\\favicon.png",
       "SourceId": "SOA_CA1",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\wwwroot\\",
       "BasePath": "_content/SOA_CA1",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

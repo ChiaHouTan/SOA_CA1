@@ -1,7 +1,45 @@
 ﻿@page "/"
+@using SOA_CA1.Service
+@inject DogBreedsService DogBreedsService
+
 
 <PageTitle>Home</PageTitle>
 
-<h1>Hello, world!</h1>
+<h3>Search for a Dog Breed by Name</h3>
 
-Welcome to your new app.
+<input @bind="searchTerm" placeholder="Enter breed name..." />
+<button @onclick="FetchDogBreed">Search</button>
+
+
+
+@if (dogBreed != null)
+{
+    <div>
+        <h4>Name: @dogBreed.name</h4>
+        <p>Max-Height: @dogBreed.max_height_male</p>
+        <p>Max-Weight: @dogBreed.max_weight_male</p>
+        <p>Life Expectancy: @dogBreed.max_life_expectancy (years)</p>
+        <p>Playfulness: @dogBreed.playfulness</p>
+        <p>Protectiveness: @dogBreed.protectiveness</p>
+        <p>Trainability: @dogBreed.trainability</p>
+        <p>Barking: @dogBreed.barking</p>
+    </div>
+}
+else if (isSearchComplete)
+{
+    <p>No breed found.</p>
+}
+
+@code {
+    private string searchTerm;
+    private DogBreed dogBreed;
+    private bool isSearchComplete = false;
+
+    // Method to call the service and fetch the dog breed based on the search term
+    private async Task FetchDogBreed()
+    {
+        isSearchComplete = false;
+        dogBreed = await DogBreedsService.GetDogBreedByNameAsync(searchTerm);
+        isSearchComplete = true;
+    }
+}

@@ -1,17 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\",
+  "WorkspaceRootPath": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9A4886B-FB69-4392-A24A-FB42F80210C9}|SOA_CA1.csproj|e:\\soa repeat module 2024-2025\\soa_ca1\\components\\service\\dogbreedsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9A4886B-FB69-4392-A24A-FB42F80210C9}|SOA_CA1.csproj|solutionrelative:components\\service\\dogbreedsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9A4886B-FB69-4392-A24A-FB42F80210C9}|SOA_CA1.csproj|c:\\users\\tanch\\desktop\\smart tech\\git upload\\soa_ca1\\soa_ca1\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9A4886B-FB69-4392-A24A-FB42F80210C9}|SOA_CA1.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9A4886B-FB69-4392-A24A-FB42F80210C9}|SOA_CA1.csproj|e:\\soa repeat module 2024-2025\\soa_ca1\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E9A4886B-FB69-4392-A24A-FB42F80210C9}|SOA_CA1.csproj|c:\\users\\tanch\\desktop\\smart tech\\git upload\\soa_ca1\\soa_ca1\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E9A4886B-FB69-4392-A24A-FB42F80210C9}|SOA_CA1.csproj|solutionrelative:components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9A4886B-FB69-4392-A24A-FB42F80210C9}|SOA_CA1.csproj|e:\\soa repeat module 2024-2025\\soa_ca1\\dogdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E9A4886B-FB69-4392-A24A-FB42F80210C9}|SOA_CA1.csproj|c:\\users\\tanch\\desktop\\smart tech\\git upload\\soa_ca1\\soa_ca1\\service\\dogbreedsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9A4886B-FB69-4392-A24A-FB42F80210C9}|SOA_CA1.csproj|solutionrelative:service\\dogbreedsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A4886B-FB69-4392-A24A-FB42F80210C9}|SOA_CA1.csproj|c:\\users\\tanch\\desktop\\smart tech\\git upload\\soa_ca1\\soa_ca1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9A4886B-FB69-4392-A24A-FB42F80210C9}|SOA_CA1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A4886B-FB69-4392-A24A-FB42F80210C9}|SOA_CA1.csproj|c:\\users\\tanch\\desktop\\smart tech\\git upload\\soa_ca1\\soa_ca1\\dogdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9A4886B-FB69-4392-A24A-FB42F80210C9}|SOA_CA1.csproj|solutionrelative:dogdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,45 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DogBreedsService.cs",
-              "DocumentMoniker": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\Components\\Service\\DogBreedsService.cs",
-              "RelativeDocumentMoniker": "Components\\Service\\DogBreedsService.cs",
-              "ToolTip": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\Components\\Service\\DogBreedsService.cs",
-              "RelativeToolTip": "Components\\Service\\DogBreedsService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T11:32:38.09Z",
+              "WhenOpened": "2024-10-15T13:39:19.353Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DogDetails.cs",
-              "DocumentMoniker": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\DogDetails.cs",
-              "RelativeDocumentMoniker": "DogDetails.cs",
-              "ToolTip": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\DogDetails.cs",
-              "RelativeToolTip": "DogDetails.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T11:13:20.961Z",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T13:03:49.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "App.razor",
-              "DocumentMoniker": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\Components\\App.razor",
+              "DocumentMoniker": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\Components\\App.razor",
               "RelativeDocumentMoniker": "Components\\App.razor",
-              "ToolTip": "E:\\SOA Repeat Module 2024-2025\\SOA_CA1\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\Components\\App.razor",
               "RelativeToolTip": "Components\\App.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAHAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-10T11:10:23.72Z",
+              "WhenOpened": "2024-10-15T13:03:28.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DogBreedsService.cs",
+              "DocumentMoniker": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\Service\\DogBreedsService.cs",
+              "RelativeDocumentMoniker": "Service\\DogBreedsService.cs",
+              "ToolTip": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\Service\\DogBreedsService.cs",
+              "RelativeToolTip": "Service\\DogBreedsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T11:32:38.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DogDetails.cs",
+              "DocumentMoniker": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\DogDetails.cs",
+              "RelativeDocumentMoniker": "DogDetails.cs",
+              "ToolTip": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\DogDetails.cs",
+              "RelativeToolTip": "DogDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T11:13:20.961Z",
               "EditorCaption": ""
             }
           ]
