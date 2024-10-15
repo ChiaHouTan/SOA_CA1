@@ -6,6 +6,7 @@
 
 <PageTitle>Home</PageTitle>
 
+
 <h3>Select a Dog Breed from the List</h3>
 
 <select @bind="selectedBreed">
@@ -18,11 +19,13 @@
 
 <button @onclick="FetchDogBreed" disabled="@(string.IsNullOrEmpty(selectedBreed))">Search</button>
 
+<br /><br />
+
 
 
 @if (dogBreed != null)
 {
-    <div>
+    <div class="table-home">
         <table>
             <tr>
                 <th>Name:</th>
@@ -59,9 +62,12 @@
             </tr>
         </table>
     </div>
+
+    <br />
+
     @if (dogImages != null && dogImages.Any())
     {
-        <h5>Images:</h5>
+        <h5><b>Images:</b></h5>
         <div class="image-gallery">
             @foreach (var imageUrl in dogImages)
             {

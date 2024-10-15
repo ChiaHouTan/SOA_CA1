@@ -49,3 +49,41 @@ h1:focus {
 .darker-border-checkbox.form-check-input {
     border-color: #929292;
 }
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers the images */
+}
+
+.image-item {
+    flex: 0 0 30%; /* Each image takes up about 30% of the row */
+    padding: 5px;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+    .image-item img {
+        width: 100%; /* Makes the image responsive */
+        max-height: 400px;
+    }
+
+.table-home table{
+    font-size: 20px;
+    width: 500px;
+}
+
+.table-home th:first-child, td:first-child {
+    width: 40%; /* Set first column to take 30% of the table width */
+}
+
+.table-home th:last-child, td:last-child {
+    width: 60%; /* Set second column to take 70% of the table width */
+}
+
+.table-home table{
+    border: 2px solid;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
