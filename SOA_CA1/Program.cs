@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-builder.Services.AddScoped<DogBreedsService>();
+builder.Services.AddScoped<IDogBreedsService, DogBreedsService>();
 
 var app = builder.Build();
 

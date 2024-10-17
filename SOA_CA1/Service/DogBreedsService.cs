@@ -7,7 +7,8 @@ using System.Xml.Serialization;
 
 namespace SOA_CA1.Service
 {
-    public class DogBreedsService
+
+    public class DogBreedsService : IDogBreedsService
     {
         private static readonly string Api_url = "https://api.api-ninjas.com/v1/dogs";
         private static readonly string ApiKey = "kEYxvRU7WUwd77Gdv6zrRQ==iK3TgdqZnMER5aXu";
@@ -52,7 +53,7 @@ namespace SOA_CA1.Service
             {
                 var content = response.Content;
                 var jsonResponse = JsonSerializer.Deserialize<DogImages>(content);
-                return jsonResponse?.message.ToArray();
+                return jsonResponse?.message.ToArray() ?? new string[0];
             }
             return new string[0];
         }
