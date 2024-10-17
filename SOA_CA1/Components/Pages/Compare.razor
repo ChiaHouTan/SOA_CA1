@@ -33,6 +33,7 @@
 @if (dogBreed1 != null && dogBreed2 != null)
 {
     <h4>Comparison between @dogBreed1.name and @dogBreed2.name</h4>
+    <div class="table-compare">
     <table>
         <thead>
             <tr>
@@ -44,41 +45,42 @@
         <tbody>
             <tr>
                 <td>Max Height</td>
-                <td>@dogBreed1.max_height_male</td>
-                <td>@dogBreed2.max_height_male</td>
+                    <td style="@GetBackgroundColor(CompareValues(dogBreed1.max_height_male, dogBreed2.max_height_male))">@dogBreed1.max_height_male</td>
+                    <td style="@GetBackgroundColor(CompareValues(dogBreed2.max_height_male, dogBreed1.max_height_male))">@dogBreed2.max_height_male</td>
             </tr>
             <tr>
                 <td>Max Weight</td>
-                <td>@dogBreed1.max_weight_male</td>
-                <td>@dogBreed2.max_weight_male</td>
+                    <td style="@GetBackgroundColor(CompareValues(dogBreed1.max_weight_male, dogBreed2.max_weight_male))">@dogBreed1.max_weight_male</td>
+                    <td style="@GetBackgroundColor(CompareValues(dogBreed2.max_weight_male, dogBreed2.max_weight_male))">@dogBreed2.max_weight_male</td>
             </tr>
             <tr>
                 <td>Life Expectancy</td>
-                <td>@dogBreed1.max_life_expectancy</td>
-                <td>@dogBreed2.max_life_expectancy</td>
+                    <td style="@GetBackgroundColor(CompareValues(dogBreed1.max_life_expectancy, dogBreed2.max_life_expectancy))">@dogBreed1.max_life_expectancy</td>
+                    <td style="@GetBackgroundColor(CompareValues(dogBreed2.max_life_expectancy, dogBreed1.max_life_expectancy))">@dogBreed2.max_life_expectancy</td>
             </tr>
             <tr>
                 <td>Playfulness</td>
-                <td>@dogBreed1.playfulness</td>
-                <td>@dogBreed2.playfulness</td>
+                    <td style="@GetBackgroundColor(CompareValues(dogBreed1.playfulness, dogBreed2.playfulness))">@dogBreed1.playfulness</td>
+                    <td style="@GetBackgroundColor(CompareValues(dogBreed2.playfulness, dogBreed1.playfulness))">@dogBreed2.playfulness</td>
             </tr>
             <tr>
                 <td>Protectiveness</td>
-                <td>@dogBreed1.protectiveness</td>
-                <td>@dogBreed2.protectiveness</td>
+                    <td style="@GetBackgroundColor(CompareValues(dogBreed1.protectiveness, dogBreed2.protectiveness))">@dogBreed1.protectiveness</td>
+                    <td style="@GetBackgroundColor(CompareValues(dogBreed2.protectiveness, dogBreed1.protectiveness))">@dogBreed2.protectiveness</td>
             </tr>
             <tr>
                 <td>Trainability</td>
-                <td>@dogBreed1.trainability</td>
-                <td>@dogBreed2.trainability</td>
+                    <td style="@GetBackgroundColor(CompareValues(dogBreed1.trainability, dogBreed2.trainability))">@dogBreed1.trainability</td>
+                    <td style="@GetBackgroundColor(CompareValues(dogBreed2.trainability, dogBreed1.trainability))">@dogBreed2.trainability</td>
             </tr>
             <tr>
                 <td>Barking</td>
-                <td>@dogBreed1.barking</td>
-                <td>@dogBreed2.barking</td>
+                    <td style="@GetBackgroundColor(CompareValues(dogBreed1.barking, dogBreed2.barking))">@dogBreed1.barking</td>
+                    <td style="@GetBackgroundColor(CompareValues(dogBreed2.barking, dogBreed1.barking))">@dogBreed2.barking</td>
             </tr>
         </tbody>
     </table>
+    </div>
 }
 else if (isComparisonComplete)
 {
@@ -92,6 +94,12 @@ else if (isComparisonComplete)
     private DogBreed dogBreed1; // First dog breed for comparison
     private DogBreed dogBreed2; // Second dog breed for comparison
     private bool isComparisonComplete = false;
+
+    enum CompareResult
+    {
+        Green,
+        Red
+    }
 
     protected override async Task OnInitializedAsync()
     {
@@ -111,5 +119,20 @@ else if (isComparisonComplete)
         dogBreed1 = await DogBreedsService.GetDogBreedByNameAsync(selectedBreed1);
         dogBreed2 = await DogBreedsService.GetDogBreedByNameAsync(selectedBreed2);
         isComparisonComplete = true;
+    }
+
+    private string GetBackgroundColor(CompareResult result)
+    {
+        return result == CompareResult.Green ? "background-color: lightgreen;" : "background-color: lightcoral;";
+    }
+
+    private CompareResult CompareValues(float value1, float value2)
+    {
+        if (value1 == value2)
+        {
+            return CompareResult.Green;
+        }
+
+        return value1 > value2 ? CompareResult.Green : CompareResult.Red;
     }
 }

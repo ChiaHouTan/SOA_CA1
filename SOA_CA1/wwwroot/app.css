@@ -87,3 +87,31 @@ h1:focus {
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+
+thead {
+    background-color: #f2f2f2;
+}
+
+.table-compare table{
+    width: 70%;
+}
+
+.table-compare th:first-child, td:first-child {
+    width: 15%; /* Set first column to take 30% of the table width */
+}
+
+.table-compare th:nth-child(2), td:nth-child(2) {
+    width: 40%; /* Set second column to take 70% of the table width */
+}
+
+.table-compare th:last-child, td:last-child {
+    width: 40%; /* Set second column to take 70% of the table width */
+}
+
+.table-compare table,td,th {
+    border: 1px solid;
+}
+
+    .table-compare th:nth-child(2), th:nth-child(3), td:nth-child(2), td:nth-child(3) {
+        text-align: center;
+    }
