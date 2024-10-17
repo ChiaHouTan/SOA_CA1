@@ -1,3 +1,4 @@
+using RestSharp;
 using SOA_CA1.Components;
 using SOA_CA1.Service;
 
@@ -7,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
+builder.Services.AddScoped<IRestClient, RestClient>();
 builder.Services.AddScoped<IDogBreedsService, DogBreedsService>();
 
 var app = builder.Build();

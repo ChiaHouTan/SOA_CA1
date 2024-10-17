@@ -10,9 +10,16 @@ namespace SOA_CA1.Service
 
     public class DogBreedsService : IDogBreedsService
     {
+        private readonly IRestClient _client;
         private static readonly string Api_url = "https://api.api-ninjas.com/v1/dogs";
         private static readonly string ApiKey = "kEYxvRU7WUwd77Gdv6zrRQ==iK3TgdqZnMER5aXu";
         private static readonly string DogImagesApiUrl = "https://dog.ceo/api/breed/";
+
+        public DogBreedsService(IRestClient client)
+        {
+            _client = client;
+        }
+
 
         public async Task<DogBreed> GetDogBreedByNameAsync(string breedName)
         {
