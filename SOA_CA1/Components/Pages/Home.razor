@@ -88,7 +88,7 @@ else if (isSearchComplete)
     private List<string> dogBreeds = new List<string>(); // List of dog breeds from file
     private string selectedBreed; // Selected breed from dropdown
     private DogBreed dogBreed;
-    private List<string> dogImages = new List<string>(); // List of dog images
+    private string[] dogImages; // List of dog images
     private bool isSearchComplete = false;
 
     protected override async Task OnInitializedAsync()

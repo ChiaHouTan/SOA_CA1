@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9A4886B-FB69-4392-A24A-FB42F80210C9}|SOA_CA1.csproj|c:\\users\\tanch\\desktop\\smart tech\\git upload\\soa_ca1\\soa_ca1\\service\\dogbreedsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9A4886B-FB69-4392-A24A-FB42F80210C9}|SOA_CA1.csproj|solutionrelative:service\\dogbreedsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9A4886B-FB69-4392-A24A-FB42F80210C9}|SOA_CA1.csproj|c:\\users\\tanch\\desktop\\smart tech\\git upload\\soa_ca1\\soa_ca1\\components\\pages\\compare.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E9A4886B-FB69-4392-A24A-FB42F80210C9}|SOA_CA1.csproj|solutionrelative:components\\pages\\compare.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A4886B-FB69-4392-A24A-FB42F80210C9}|SOA_CA1.csproj|c:\\users\\tanch\\desktop\\smart tech\\git upload\\soa_ca1\\soa_ca1\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9A4886B-FB69-4392-A24A-FB42F80210C9}|SOA_CA1.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9A4886B-FB69-4392-A24A-FB42F80210C9}|SOA_CA1.csproj|c:\\users\\tanch\\desktop\\smart tech\\git upload\\soa_ca1\\soa_ca1\\service\\dogbreedsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9A4886B-FB69-4392-A24A-FB42F80210C9}|SOA_CA1.csproj|solutionrelative:service\\dogbreedsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9A4886B-FB69-4392-A24A-FB42F80210C9}|SOA_CA1.csproj|c:\\users\\tanch\\desktop\\smart tech\\git upload\\soa_ca1\\soa_ca1\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E9A4886B-FB69-4392-A24A-FB42F80210C9}|SOA_CA1.csproj|c:\\users\\tanch\\desktop\\smart tech\\git upload\\soa_ca1\\soa_ca1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9A4886B-FB69-4392-A24A-FB42F80210C9}|SOA_CA1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9A4886B-FB69-4392-A24A-FB42F80210C9}|SOA_CA1.csproj|c:\\users\\tanch\\desktop\\smart tech\\git upload\\soa_ca1\\soa_ca1\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9A4886B-FB69-4392-A24A-FB42F80210C9}|SOA_CA1.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DogBreedsService.cs",
-              "DocumentMoniker": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\Service\\DogBreedsService.cs",
-              "RelativeDocumentMoniker": "Service\\DogBreedsService.cs",
-              "ToolTip": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\Service\\DogBreedsService.cs",
-              "RelativeToolTip": "Service\\DogBreedsService.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAqwFIAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T10:19:17.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -55,44 +42,57 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T10:19:10.297Z",
+              "WhenOpened": "2024-10-17T11:15:37.046Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "DogBreedsService.cs",
+              "DocumentMoniker": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\Service\\DogBreedsService.cs",
+              "RelativeDocumentMoniker": "Service\\DogBreedsService.cs",
+              "ToolTip": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\Service\\DogBreedsService.cs",
+              "RelativeToolTip": "Service\\DogBreedsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T10:19:17.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "app.css",
               "DocumentMoniker": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\wwwroot\\app.css",
               "RelativeDocumentMoniker": "wwwroot\\app.css",
               "ToolTip": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\wwwroot\\app.css",
               "RelativeToolTip": "wwwroot\\app.css",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAHQAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAHcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-10-15T16:09:36.629Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Compare.razor",
               "DocumentMoniker": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\Components\\Pages\\Compare.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Compare.razor",
               "ToolTip": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\Components\\Pages\\Compare.razor",
               "RelativeToolTip": "Components\\Pages\\Compare.razor",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAACsAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIAAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-15T15:51:34.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\tanch\\Desktop\\Smart Tech\\git upload\\SOA_CA1\\SOA_CA1\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "Components\\Pages\\Home.razor",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-15T15:49:56.031Z",
               "EditorCaption": ""

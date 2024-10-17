@@ -78,6 +78,11 @@
                     <td style="@GetBackgroundColor(CompareValues(dogBreed1.barking, dogBreed2.barking))">@dogBreed1.barking</td>
                     <td style="@GetBackgroundColor(CompareValues(dogBreed2.barking, dogBreed1.barking))">@dogBreed2.barking</td>
             </tr>
+            <tr>
+                 <td>Images</td>
+                    <td><img src="@dogImages1[0]" alt="Dog Image1" /></td>
+                    <td><img src="@dogImages2[0]" alt="Dog Image2" /></td>
+             </tr>
         </tbody>
     </table>
     </div>
@@ -92,7 +97,9 @@ else if (isComparisonComplete)
     private string selectedBreed1; // Selected breed 1 from dropdown
     private string selectedBreed2; // Selected breed 2 from dropdown
     private DogBreed dogBreed1; // First dog breed for comparison
+    private string[] dogImages1;
     private DogBreed dogBreed2; // Second dog breed for comparison
+    private string[] dogImages2;
     private bool isComparisonComplete = false;
 
     enum CompareResult
@@ -117,7 +124,17 @@ else if (isComparisonComplete)
     {
         isComparisonComplete = false;
         dogBreed1 = await DogBreedsService.GetDogBreedByNameAsync(selectedBreed1);
+        if (dogBreed1 != null)
+        {
+            dogImages1 = await DogBreedsService.GetRandomImagesAsync(selectedBreed1);
+        }
+
         dogBreed2 = await DogBreedsService.GetDogBreedByNameAsync(selectedBreed2);
+        if (dogBreed2 != null)
+        {
+            dogImages2 = await DogBreedsService.GetRandomImagesAsync(selectedBreed2);
+        }
+
         isComparisonComplete = true;
     }
 

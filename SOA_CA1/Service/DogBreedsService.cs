@@ -42,7 +42,7 @@ namespace SOA_CA1.Service
             }
         }
 
-        public async Task<List<string>> GetRandomImagesAsync(string breed, int count = 9)
+        public async Task<string[]> GetRandomImagesAsync(string breed, int count = 9)
         {
             var client = new RestClient(DogImagesApiUrl);
             var request = new RestRequest($"{breed.ToLower()}/images/random/{count}", Method.Get);
@@ -52,9 +52,9 @@ namespace SOA_CA1.Service
             {
                 var content = response.Content;
                 var jsonResponse = JsonSerializer.Deserialize<DogImages>(content);
-                return jsonResponse?.message;
+                return jsonResponse?.message.ToArray();
             }
-            return new List<string>();
+            return new string[0];
         }
     }
 
@@ -88,7 +88,7 @@ namespace SOA_CA1.Service
 
     public class DogImages
     {
-        public List<string> message { get; set; }
+        public string[] message { get; set; }
         public string status { get; set; }
     }
 
